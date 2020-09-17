@@ -17,6 +17,9 @@ int main(int argc, char** argv){
 
 	fread(&x1, sizeof(x1), 1, fp1);
 	fread(&x2, sizeof(x2), 1, fp2);
+	fclose(fp1);
+	fclose(fp2);
+	
 	/*
 	printf("%x\n", x1);
 	printf("%x\n", x2);
