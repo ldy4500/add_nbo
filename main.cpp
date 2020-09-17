@@ -20,18 +20,5 @@ int main(int argc, char** argv){
 	fclose(fp1);
 	fclose(fp2);
 	
-	/*
-	printf("%x\n", x1);
-	printf("%x\n", x2);
-
-	x1 = ntohl(x1);
-	x2 = ntohl(x2);
-
-	printf("%x\n", x1);
-	printf("%x\n", x2);
-	printf("%d\n", x1);
-	printf("%d\n", x2);
-	*/
-	
 	add_nbo(x1, x2);
 }
